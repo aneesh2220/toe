@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+
+header{
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h2{
+    font-size: 2rem;
+    color: white;
+    padding-right: 80%;
+
+    
+  }
+
+  .h-icon{
+    font-size: 3rem;
+    color: white;
+    
+
+   
+
+  }
+
+}
+
+.Body{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  color: white;
+
+
+}
+
+.reset-i{
+  height: 50px;
+  width: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  background: transparent;
+  border: 2px solid lightblue;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+  color: white;
+}
